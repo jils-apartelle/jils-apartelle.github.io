@@ -1,0 +1,9 @@
+guests-modal .ok-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+guests-modal input[type="number"] {
+    padding: 0.3rem;
+}
