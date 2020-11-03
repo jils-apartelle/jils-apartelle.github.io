@@ -1,0 +1,47 @@
+calendar-carousel-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+
+
+calendar-carousel-component .prev-next button {
+    border: solid black;
+    border-width: 0 0.35rem 0.35rem 0;
+    display: inline-block;
+    padding: 3px;
+    width: 1rem;
+    height: 1rem;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+calendar-carousel-component .prev-next-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+calendar-carousel-component .prev-next .prev {
+    transform: rotate(135deg);
+}
+
+calendar-carousel-component .prev-next .next {
+    transform: rotate(-45deg);
+}
+
+calendar-carousel-component .calendars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+
+/* the calendars display in a row */
+@media only screen and (min-width: 42.2rem)
+{
+
+}

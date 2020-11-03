@@ -1,0 +1,102 @@
+
+/*----- calendar -----*/
+calendar-component {
+	margin: 5px;
+}
+
+calendar-component .month {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0.5rem;
+}
+
+calendar-component .month-table {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+calendar-component .month-table table{
+	border-spacing: 0;
+}
+
+calendar-component .month-table th{
+	text-align: center;
+	width: 3rem;
+	font-weight: normal;
+	padding: 0.5rem;
+	
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+calendar-component .month-table td{
+	text-align: center;
+	cursor: pointer;
+	height: 2rem;
+
+	user-select: none;
+    -webkit-user-select: none;
+}
+
+.start-end-calendar-container {
+	display: flex;
+    justify-content: center;
+}
+
+.start-end-calendar-container > div {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.start-end-calendar-container span {
+	font-size: 0.75rem;
+}
+
+.start-end-calendar-container .noSelectedDate {
+	color: #b7c7cc;
+}
+
+.start-end-calendar-container .withSelectedDate {
+	color: darkblue;
+}
+
+.current-date {
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.selected-start-date{
+	background-color: lightblue;
+}
+
+.selected-end-date{
+	background-color: lightcyan;
+}
+
+.included-date{
+	background-color: lightcoral;
+}
+
+.month-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 0.9rem;
+	border-bottom: 1px solid aliceblue;
+	padding-bottom: 2px;
+	font-weight: bold;
+
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+.month-title span {
+	margin: 0 3px;
+}
+
+
